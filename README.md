@@ -3,11 +3,11 @@
 > Recruiter-friendly proof and contact path.
 
 <p align="center">
-  <img src="./assets/header-scan.svg" alt="Andres Developer animated header" width="900" />
+  <img src="header-scan.svg" alt="Andres Developer animated header" width="900" />
 </p>
 
 <p align="center">
-  <img src="./assets/status-badge.svg" alt="Available for freelance / collab" />
+  <img src="status-badge.svg" alt="Available for freelance / collab" />
 </p>
 
 ## Header
@@ -15,10 +15,10 @@
 Hi, I'm **Andres Developer** (@AndresFelipeAceroLopez). This README shares what I'm building, the tools I use, and the work I'm proud of.
 
 <p align="center">
-  <img src="./assets/hero-browser.svg" alt="AndresFelipeAceroLopez hero section in a browser window" width="900" />
+  <img src="hero-browser.svg" alt="AndresFelipeAceroLopez hero section in a browser window" width="900" />
 </p>
 
-<img src="./assets/divider-wave.svg" width="100%" height="40" alt="divider" />
+<img src="divider-wave.svg" width="100%" height="40" alt="divider" />
 
 ## About Me
 
@@ -31,17 +31,17 @@ A public GitHub profile focused on get hired.
   </picture>
 </p>
 
-<img src="./assets/divider-wave.svg" width="100%" height="40" alt="divider" />
+<img src="divider-wave.svg" width="100%" height="40" alt="divider" />
 
 ## Skills
 
 Languages and tools: TypeScript, Python, Java, Dart, CSS.
 
 <p align="center">
-  <img src="./assets/skills-bars.svg" alt="Animated language stack bars" width="700" />
+  <img src="skills-bars.svg" alt="Animated language stack bars" width="700" />
 </p>
 
-<img src="./assets/divider-wave.svg" width="100%" height="40" alt="divider" />
+<img src="divider-wave.svg" width="100%" height="40" alt="divider" />
 
 ## Heatmap
 
@@ -52,7 +52,7 @@ Languages and tools: TypeScript, Python, Java, Dart, CSS.
   </picture>
 </p>
 
-<img src="./assets/divider-wave.svg" width="100%" height="40" alt="divider" />
+<img src="divider-wave.svg" width="100%" height="40" alt="divider" />
 
 ## GitHub Stats
 
@@ -65,7 +65,7 @@ Languages and tools: TypeScript, Python, Java, Dart, CSS.
   </picture>
 </p>
 
-<img src="./assets/divider-wave.svg" width="100%" height="40" alt="divider" />
+<img src="divider-wave.svg" width="100%" height="40" alt="divider" />
 
 ## Projects
 
@@ -78,7 +78,7 @@ Featured repositories selected from the public GitHub profile.
   </picture>
 </p>
 
-<img src="./assets/divider-wave.svg" width="100%" height="40" alt="divider" />
+<img src="divider-wave.svg" width="100%" height="40" alt="divider" />
 
 ## Connect
 
