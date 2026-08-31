@@ -10,13 +10,7 @@
   <img src="status-badge.svg" alt="Available for freelance / collab" />
 </p>
 
-## Header
-
 Hi, I'm **Andres Developer** (@AndresFelipeAceroLopez). This README shares what I'm building, the tools I use, and the work I'm proud of.
-
-<p align="center">
-  <img src="hero-browser.svg" alt="AndresFelipeAceroLopez hero section in a browser window" width="900" />
-</p>
 
 <img src="divider-wave.svg" width="100%" height="40" alt="divider" />
 
