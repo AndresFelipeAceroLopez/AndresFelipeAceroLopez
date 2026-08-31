@@ -1,12 +1,25 @@
-<svg width="900" height="270" viewBox="0 0 900 270" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="270" viewBox="0 0 900 270" xmlns="http://www.w3.org/2000/svg" overflow="hidden">
+  <defs>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="scanLine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
   <!-- window frame -->
   <rect x="1" y="1" width="898" height="268" rx="14" fill="#0a0e1a" stroke="#1e3a5f" stroke-width="1.5"/>
 
   <!-- title bar -->
-  <path d="M1 15 A13 13 0 0 1 14 1 H886 A13 13 0 0 1 899 15 V38 H1 V15 Z" fill="#111827"/>
+  <rect x="1" y="1" width="898" height="37" rx="14" fill="#111827"/>
+  <rect x="1" y="24" width="898" height="14" fill="#111827"/>
   <line x1="1" y1="38" x2="899" y2="38" stroke="#1e3a5f" stroke-width="1"/>
 
-  <!-- traffic lights (animated: gentle pulse) -->
+  <!-- traffic lights -->
   <circle cx="24" cy="19" r="6" fill="#ff5f56">
     <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
   </circle>
@@ -20,16 +33,83 @@
   <!-- address bar -->
   <rect x="280" y="8" width="340" height="22" rx="11" fill="#0a0e1a" stroke="#1e3a5f" stroke-width="1"/>
   <circle cx="298" cy="19" r="5" fill="#22D3EE" opacity="0.7"/>
-  <text x="450" y="23" font-family="Menlo, Consolas, monospace" font-size="11" fill="#94a3b8" text-anchor="middle">github.com/AndresFelipeAceroLopez</text>
+  <text x="450" y="23" font-family="Menlo,Consolas,monospace" font-size="11" fill="#94a3b8" text-anchor="middle">github.com/AndresFelipeAceroLopez</text>
 
-  <!-- screenshot content -->
-  <clipPath id="heroClip">
-    <rect x="10" y="46" width="880" height="214" rx="8"/>
-  </clipPath>
-  <g clip-path="url(#heroClip)">
-    <rect x="10" y="46" width="880" height="214" fill="#0a0e1a"/>
-    <image href="https://www.gitskins.com/api/section/hero?username=AndresFelipeAceroLopez&amp;theme=github-dark"
-           x="10" y="46" width="880" height="214" preserveAspectRatio="xMidYMid slice"/>
+  <!-- content area background -->
+  <rect x="10" y="46" width="880" height="214" rx="8" fill="url(#heroGrad)"/>
+
+  <!-- subtle grid -->
+  <g stroke="#1e3a5f" stroke-width="0.5" opacity="0.3">
+    <line x1="10" y1="105" x2="890" y2="105"/>
+    <line x1="10" y1="165" x2="890" y2="165"/>
+    <line x1="10" y1="225" x2="890" y2="225"/>
+    <line x1="300" y1="46" x2="300" y2="260"/>
+    <line x1="600" y1="46" x2="600" y2="260"/>
   </g>
+
+  <!-- ===== LEFT: avatar area ===== -->
+  <!-- avatar circle -->
+  <circle cx="150" cy="120" r="40" fill="#111827" stroke="#3B82F6" stroke-width="2"/>
+  <!-- initials -->
+  <text x="150" y="129" text-anchor="middle" font-family="Menlo,Consolas,monospace" font-size="30" font-weight="700" fill="#3B82F6">AF</text>
+  <!-- glow ring animation -->
+  <circle cx="150" cy="120" r="40" fill="none" stroke="#3B82F6" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="40;52;40" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- name -->
+  <text x="150" y="185" text-anchor="middle" font-family="Menlo,Consolas,monospace" font-size="15" font-weight="700" fill="#e8ecf5">Andres Felipe</text>
+  <!-- handle -->
+  <text x="150" y="205" text-anchor="middle" font-family="Menlo,Consolas,monospace" font-size="11" fill="#94a3b8">@AndresFelipeAceroLopez</text>
+  <!-- role badge -->
+  <rect x="82" y="215" width="136" height="22" rx="11" fill="none" stroke="#3B82F6" stroke-width="1" opacity="0.6"/>
+  <text x="150" y="230" text-anchor="middle" font-family="Menlo,Consolas,monospace" font-size="10" fill="#3B82F6">Full Stack Developer</text>
+
+  <!-- ===== RIGHT: terminal block ===== -->
+  <!-- terminal header -->
+  <rect x="330" y="60" width="540" height="22" rx="6" fill="#111827"/>
+  <circle cx="345" cy="71" r="4" fill="#1e3a5f"/>
+  <circle cx="358" cy="71" r="4" fill="#1e3a5f"/>
+  <circle cx="371" cy="71" r="4" fill="#1e3a5f"/>
+  <text x="450" y="75" font-family="Menlo,Consolas,monospace" font-size="10" fill="#94a3b8">~/profile</text>
+
+  <!-- terminal body -->
+  <rect x="330" y="82" width="540" height="164" rx="0" fill="#0a0e1a" opacity="0.6"/>
+  <rect x="330" y="82" width="540" height="164" rx="0" fill="none" stroke="#1e3a5f" stroke-width="0.5"/>
+
+  <!-- line 1: whoami -->
+  <text x="345" y="108" font-family="Menlo,Consolas,monospace" font-size="12" fill="#4ADE80">$</text>
+  <text x="360" y="108" font-family="Menlo,Consolas,monospace" font-size="12" fill="#e8ecf5">whoami</text>
+  <text x="345" y="126" font-family="Menlo,Consolas,monospace" font-size="12" fill="#94a3b8">Andres Felipe Acero Lopez</text>
+
+  <!-- line 2: stack -->
+  <text x="345" y="152" font-family="Menlo,Consolas,monospace" font-size="12" fill="#4ADE80">$</text>
+  <text x="360" y="152" font-family="Menlo,Consolas,monospace" font-size="12" fill="#e8ecf5">stack --list</text>
+  <text x="345" y="170" font-family="Menlo,Consolas,monospace" font-size="12" fill="#22D3EE">TypeScript</text>
+  <text x="440" y="170" font-family="Menlo,Consolas,monospace" font-size="12" fill="#94a3b8">·</text>
+  <text x="455" y="170" font-family="Menlo,Consolas,monospace" font-size="12" fill="#22D3EE">Python</text>
+  <text x="520" y="170" font-family="Menlo,Consolas,monospace" font-size="12" fill="#94a3b8">·</text>
+  <text x="535" y="170" font-family="Menlo,Consolas,monospace" font-size="12" fill="#A78BFA">Java</text>
+  <text x="578" y="170" font-family="Menlo,Consolas,monospace" font-size="12" fill="#94a3b8">·</text>
+  <text x="593" y="170" font-family="Menlo,Consolas,monospace" font-size="12" fill="#4ADE80">Dart</text>
+
+  <!-- line 3: repos -->
+  <text x="345" y="196" font-family="Menlo,Consolas,monospace" font-size="12" fill="#4ADE80">$</text>
+  <text x="360" y="196" font-family="Menlo,Consolas,monospace" font-size="12" fill="#e8ecf5">git stats</text>
+  <text x="345" y="214" font-family="Menlo,Consolas,monospace" font-size="12" fill="#94a3b8">25 repos · 316 contributions</text>
+
+  <!-- blinking cursor -->
+  <text x="345" y="236" font-family="Menlo,Consolas,monospace" font-size="12" fill="#4ADE80">$</text>
+  <rect x="360" y="224" width="8" height="14" fill="#22D3EE">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- scan line sweeping down -->
+  <rect x="10" y="46" width="880" height="6" fill="url(#scanLine)">
+    <animate attributeName="y" values="46;254;46" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- content border -->
   <rect x="10" y="46" width="880" height="214" rx="8" fill="none" stroke="#1e3a5f" stroke-width="1"/>
 </svg>

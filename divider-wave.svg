@@ -1,19 +1,10 @@
-<svg width="900" height="50" viewBox="0 0 900 50" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="glowW" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2.4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-  <rect width="900" height="50" fill="#0a0e1a"/>
-  <g filter="url(#glowW)">
+<svg width="900" height="50" viewBox="0 0 900 50" xmlns="http://www.w3.org/2000/svg" overflow="hidden">
+  <rect width="900" height="50" fill="none"/>
+  <g>
     <g>
-      <path d="M0,25 C 56,5 113,45 169,25 C 225,5 281,45 338,25 C 394,5 450,45 506,25 C 563,5 619,45 675,25 C 731,5 788,45 844,25 C 900,5 900,25 900,25"
+      <path d="M0,25 C56,5 113,45 169,25 C225,5 281,45 338,25 C394,5 450,45 506,25 C563,5 619,45 675,25 C731,5 788,45 844,25 L900,25"
             fill="none" stroke="#3B82F6" stroke-width="2" opacity="0.85"/>
-      <path d="M900,25 C 956,5 1013,45 1069,25 C 1125,5 1181,45 1238,25 C 1294,5 1350,45 1406,25 C 1463,5 1519,45 1575,25 C 1631,5 1688,45 1744,25 C 1800,5 1800,25 1800,25"
+      <path d="M900,25 C956,5 1013,45 1069,25 C1125,5 1181,45 1238,25 C1294,5 1350,45 1406,25 C1463,5 1519,45 1575,25 C1631,5 1688,45 1744,25 L1800,25"
             fill="none" stroke="#22D3EE" stroke-width="2" opacity="0.85"/>
       <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="6s" repeatCount="indefinite"/>
     </g>
