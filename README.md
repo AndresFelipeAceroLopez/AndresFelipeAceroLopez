@@ -1,55 +1,95 @@
-<!-- ========================================================= -->
-<!--                     HEADER / HERO                         -->
-<!-- ========================================================= -->
+# Andres Developer
 
-<div align="center">
+> Recruiter-friendly proof and contact path.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1628,50:2563EB,100:00D9FF&height=220&section=header&text=Andres%20Developer&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Software%20Engineer%20%7C%20Builder&descAlignY=55&descSize=18"/>
+<p align="center">
+  <img src="./assets/header-scan.svg" alt="Andres Developer animated header" width="900" />
+</p>
 
-<br>
+<p align="center">
+  <img src="./assets/status-badge.svg" alt="Available for freelance / collab" />
+</p>
 
-<a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+%F0%9F%92%BB;Building+scalable+web+applications+%F0%9F%9A%80;Backend+%7C+Frontend+%7C+Cloud;Automation+%7C+AI+%7C+Integrations;Turning+ideas+into+real+products+%F0%9F%94%A5" alt="Typing SVG" />
-</a>
+## Header
 
-<br><br>
+Hi, I'm **Andres Developer** (@AndresFelipeAceroLopez). This README shares what I'm building, the tools I use, and the work I'm proud of.
 
-<a href="https://github.com/AndresFelipeAceroLopez">
-<img src="https://img.shields.io/github/followers/AndresFelipeAceroLopez?label=Followers&style=for-the-badge&logo=github&color=2563EB" />
-</a>
+<p align="center">
+  <img src="./assets/hero-browser.svg" alt="AndresFelipeAceroLopez hero section in a browser window" width="900" />
+</p>
 
-<a href="https://github.com/AndresFelipeAceroLopez?tab=repositories">
-<img src="https://img.shields.io/badge/Repositories-24-0A1628?style=for-the-badge&logo=github" />
-</a>
+<img src="./assets/divider-wave.svg" width="100%" height="40" alt="divider" />
 
-<a href="https://github.com/AndresFelipeAceroLopez">
-<img src="https://komarev.com/ghpvc/?username=AndresFelipeAceroLopez&style=for-the-badge&color=2563EB&label=PROFILE+VIEWS" />
-</a>
+## About Me
 
-</div>
+A public GitHub profile focused on get hired.
 
----
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/about?username=AndresFelipeAceroLopez&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/about?username=AndresFelipeAceroLopez&theme=github-dark" alt="AndresFelipeAceroLopez about section" />
+  </picture>
+</p>
 
-# 👨‍💻 About Me
+<img src="./assets/divider-wave.svg" width="100%" height="40" alt="divider" />
 
-```ts
-const andres = {
-    name: "Andres Felipe Acero Lopez",
-    role: "Full Stack Developer",
-    focus: [
-        "Web Development",
-        "Backend Architecture",
-        "Cloud & Infrastructure",
-        "Automation",
-        "Artificial Intelligence"
-    ],
-    languages: [
-        "TypeScript",
-        "JavaScript",
-        "Python",
-        "Java",
-        "Dart"
-    ],
-    currentlyBuilding: "Real-world software products",
-    mindset: "Build. Learn. Improve. Repeat."
-};
+## Skills
+
+Languages and tools: TypeScript, Python, Java, Dart, CSS.
+
+<p align="center">
+  <img src="./assets/skills-bars.svg" alt="Animated language stack bars" width="700" />
+</p>
+
+<img src="./assets/divider-wave.svg" width="100%" height="40" alt="divider" />
+
+## Heatmap
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=AndresFelipeAceroLopez&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/heatmap?username=AndresFelipeAceroLopez&theme=github-dark" alt="AndresFelipeAceroLopez heatmap section" />
+  </picture>
+</p>
+
+<img src="./assets/divider-wave.svg" width="100%" height="40" alt="divider" />
+
+## GitHub Stats
+
+25 repositories · 0 stars · 316 contributions.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=AndresFelipeAceroLopez&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/stats?username=AndresFelipeAceroLopez&theme=github-dark" alt="AndresFelipeAceroLopez stats section" />
+  </picture>
+</p>
+
+<img src="./assets/divider-wave.svg" width="100%" height="40" alt="divider" />
+
+## Projects
+
+Featured repositories selected from the public GitHub profile.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=AndresFelipeAceroLopez&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/projects?username=AndresFelipeAceroLopez&theme=github-dark" alt="AndresFelipeAceroLopez projects section" />
+  </picture>
+</p>
+
+<img src="./assets/divider-wave.svg" width="100%" height="40" alt="divider" />
+
+## Connect
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=AndresFelipeAceroLopez&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/social?username=AndresFelipeAceroLopez&theme=github-dark" alt="AndresFelipeAceroLopez social section" />
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://github.com/AndresFelipeAceroLopez">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/andres-felipe-acero-lopez-6529712aa/">LinkedIn</a>
+</p>
